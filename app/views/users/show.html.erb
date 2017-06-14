@@ -1,14 +1,5 @@
 <p id="notice"><%= notice %></p>
 
-<div>
-	<h2><%= @user.name %>'s first post was this:</h2>
-	<p>
-		<i><%= @user.microposts.first.created_at %></i>
-		<br>
-		<%= @user.microposts.first.content %>
-	</p>
-</div>
-
 <p>
   <strong>Name:</strong>
   <%= @user.name %>
